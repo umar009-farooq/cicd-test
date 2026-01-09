@@ -22,5 +22,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: Build and test
-        run: mvn clean test
+      - name: Build, test and package
+        run: mvn clean package
+
